@@ -20,8 +20,26 @@ function validarArray(item){
 }
 
 function mifuncion1(){
-    numeros.every(validarArray)
+    console.log(num.every(validarArray))
 }
 
+// De un determinado arreglo con nombre y edad 
+//Buscar aquellas personas que tengan más de 5 años
+// 5 elementos
 
 
+let personas=[
+    {nombre: "Alan",edad:65},
+    {nombre: "Abdiel",edad:10},
+    {nombre: "Cesar",edad:3},
+    {nombre: "Diego",edad:5},
+    {nombre: "Mario",edad:6},
+
+]
+
+let busqueda=personas.filter(persona=>persona.edad>5)
+
+console.log(busqueda)
+
+// Hacer una búsqueda de 10 trabajadores donde sean developers
+ console.log("chi")
